@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Floreto\Common.h" />
+    <ClInclude Include="Floreto\Floreto.h" />
+    <ClInclude Include="Floreto\Utils\ClassModel.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\DataUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\JsonUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\ObjectFactory.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\Button.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\NinePatchSprite.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\ScrollViewProtocol.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\TiledButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\ToggleButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\TouchPhase.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\TouchProtocol.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\UIContainerProtocol.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\UIElementProtocol.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\UIInflater.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\UIUtils.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\VisibleView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\VScrollView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\BackKeyUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\HPagedView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\ValueMapUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\ValueMapWriter.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\ValueMapReader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\Utils\EnumMapper.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Floreto\UI\Slider.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{4c245e8b-901a-4f23-9f47-9352b890624f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e895b1ce-454f-4735-8d9e-5c51bcb43e68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Floreto\Utils\DataUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\Utils\JsonUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\Button.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\NinePatchSprite.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\TiledButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\ToggleButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\UIInflater.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\UIUtils.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\VisibleView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\VScrollView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\Utils\BackKeyUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\HPagedView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Floreto\UI\Slider.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
